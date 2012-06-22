@@ -13,16 +13,15 @@
     "engines": {
         "node": ">= 0.6.0"
     },
-    "main": "lib/index.js",
+    "main": "./lib/index.js",
     "dependencies": {
-        "underscore": "",
-        "express": "2.5.9",
-        "ejs": ""
+        "underscore": "1.x",
+        "express": "2.x",
+        "ejs": "0.x"
     },
     "devDependencies": {
-        "express": "2.5.9",
-        "nodeunit": "",
-        "request": ""
+        "nodeunit": "0.x",
+        "request": "2.x"
     },
     "scripts": {
         "test": "nodeunit test"
